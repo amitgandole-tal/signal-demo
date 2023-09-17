@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Add your custom Mario-themed styles here */
+.mario-bg {
+  background-image: url('https://e1.pxfuel.com/desktop-wallpaper/817/213/desktop-wallpaper-finish-super-mario-super-mario-pixel-background-thumbnail.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+}
